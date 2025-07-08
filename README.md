@@ -1,12 +1,21 @@
 # System Uptime Visualizer
 
-Python script to simulate uptime logs and plot them using Matplotlib.
+This Python project simulates and visualizes system uptime/downtime using a 24-hour random generator. The output is a plotted chart showing operational status.
 
-## Features
-- Simulates random uptime (1) / downtime (0) across 24 hours
-- Plots status with labels
-- Saves chart as PNG
+## 🔧 Technologies Used
+- Python 3.12
+- Matplotlib
+- Random uptime simulation
 
-## Usage
+## 📊 Features
+- Generates fake uptime logs
+- Plots operational status vs time
+- Exports chart as PNG image
 
-python uptime_plotter.py
+## 📁 Project Files
+- `uptime_plotter.py` – Script with plotting logic
+- `uptime_chart.png` – Auto-generated chart
+- `README.md` – Documentation
+
+## 📌 Notes
+Strengthens Python plotting and data handling skills. Useful for basic visualization of time-series-like data for ops dashboards.
